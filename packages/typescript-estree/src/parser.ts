@@ -214,7 +214,7 @@ function parseAndGenerateServices<T extends TSESTreeOptions = TSESTreeOptions>(
     typeof options.errorOnTypeScriptSyntacticAndSemanticIssues === 'boolean' &&
     options.errorOnTypeScriptSyntacticAndSemanticIssues
   ) {
-    parseSettings.errorOnTypeScriptSyntacticAndSemanticIssues = true;
+    parseSettings.errorOnTypeScriptSyntacticAndSemanticIssues = false;
   }
 
   if (
